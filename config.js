@@ -5,6 +5,6 @@ window.ROOMSHARE_CONFIG = {
   mode: 'supabase',
   supabaseUrl: 'https://pgbkgzobcnlvvyupfmrc.supabase.co',
   publishableKey: 'sb_publishable_uWP3_3GM2Qwm0lhHBkUOgA_-8eoVL6f',
-  googleOAuthReady: false, // Google Cloud + Supabase OAuth configuration REQUIRED first
+  googleOAuthReady: true, // Google Cloud + Supabase OAuth configuration REQUIRED first
   emailOtpReady: false // Email provider + {{ .Token }} email templates REQUIRED first
 };
